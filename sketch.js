@@ -20,7 +20,7 @@ function draw() {
 function placeParticles() {
   for (let i = 0; i < width * 2; i += density) {
     for (let j = 0; j < height * 2; j += density) {
-      let c = color(255, 211, 0, 255);
+      let c = color(255, 144, 251, 255);
       particles.push(new Particle(i, j, c));
     }
   }
